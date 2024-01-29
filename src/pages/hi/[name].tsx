@@ -6,7 +6,9 @@ export default function Hi() {
     <div>
       <div class="i-carbon-pedestrian text-4xl inline-block" />
       <p>
-        Hi, {params.name}
+        Hi,
+        {' '}
+        {params.name}
       </p>
       <p class="text-sm op50">
         <em>Dynamic route!</em>

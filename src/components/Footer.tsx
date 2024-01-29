@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <nav class="text-xl mt-6 inline-flex gap-2">
       <button class="icon-btn !outline-none" onClick={() => toggleDark()}>
-        {isDark() ? <div class="i-carbon-moon" /> : <div class="i-carbon-sun" />}
+        {isDark() ? <div class=" icon-btn i-carbon-moon" /> : <div class="icon-btn i-carbon-sun" />}
       </button>
 
       <a
