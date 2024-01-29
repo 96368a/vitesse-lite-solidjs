@@ -72,7 +72,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit nanakura/vitesse-lite-solidjs my-solid-app
+npx degit 96368a/vitesse-lite-solidjs my-solid-app
 cd my-solid-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```

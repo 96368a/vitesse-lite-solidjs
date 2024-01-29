@@ -69,7 +69,7 @@
 如果您更喜欢使用更干净的 git 历史记录手动执行此操作
 
 ```bash
-npx degit nanakura/vitesse-lite-solidjs my-solid-app
+npx degit 96368a/vitesse-lite-solidjs my-solid-app
 cd my-solid-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
