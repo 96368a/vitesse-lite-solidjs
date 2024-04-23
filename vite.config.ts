@@ -20,12 +20,12 @@ export default defineConfig({
     AutoImport({
       imports: [
         'solid-js',
-        '@solidjs/router',
       ],
       dts: true,
       dirs: [
         'src/primitives',
       ],
+      packagePresets: ['@solidjs/router'],
     }),
 
   ],
@@ -34,10 +34,6 @@ export default defineConfig({
   },
   test: {
     environment: 'jsdom',
-    transformMode: {
-      web: [/.[jt]sx?/],
-    },
-    threads: false,
     isolate: false,
   },
 })
